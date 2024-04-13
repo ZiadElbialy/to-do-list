@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>To DO List</title>
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <ul class="links container">
+                    <li><a href="">To-Do</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="container">
+                <h2>To-do List</h2>
+                <form action="">
+                    <textarea
+                        id="text"
+                        placeholder="What do you need to do today?"
+                        required
+                    ></textarea>
+                    <input class="add" type="submit" value="ADD" />
+                </form>
+                <div class="tasks"></div>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
